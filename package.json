@@ -5,10 +5,9 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start":"nodemon server",
-    "prodstart": "node ./index.js",
+    "start":"node server.js",
     "heroku-prebuild": "npm install",
-    "heroku-postbuild":"node ./index.js"
+    "heroku-postbuild":"node server.js"
   },
   "keywords": [],
   "author": "",
