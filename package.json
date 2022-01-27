@@ -7,7 +7,8 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "start":"nodemon server",
     "prodstart": "node ./index.js",
-    "heroku-prebuild": "npm install"
+    "heroku-prebuild": "npm install",
+    "heroku-postbuild":"node ./index.js"
   },
   "keywords": [],
   "author": "",
